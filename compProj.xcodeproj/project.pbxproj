@@ -11,6 +11,7 @@
 		8879ACD4247827D5006B5CCD /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8879ACD3247827D5006B5CCD /* Spinner.swift */; };
 		8879ACD6247828B0006B5CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8879ACD5247828B0006B5CCD /* Main.storyboard */; };
 		888177172479475000ADD90F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888177162479475000ADD90F /* Constants.swift */; };
+		8881771B24794E1900ADD90F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881771A24794E1900ADD90F /* IntroViewController.swift */; };
 		888507EA2476791900EE5468 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888507E92476791900EE5468 /* ChooseViewController.swift */; };
 		889D63D2247694CB002CF11D /* CatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D63D1247694CB002CF11D /* CatViewController.swift */; };
 		889D63DA2476B519002CF11D /* forest.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 889D63D92476B518002CF11D /* forest.mlmodel */; };
@@ -30,6 +31,7 @@
 		8879ACD5247828B0006B5CCD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		888177162479475000ADD90F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		888177192479483300ADD90F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8881771A24794E1900ADD90F /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		888507E92476791900EE5468 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
 		889D63D1247694CB002CF11D /* CatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewController.swift; sourceTree = "<group>"; };
 		889D63D92476B518002CF11D /* forest.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = forest.mlmodel; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				88AAB62D247406B20067EE0D /* ViewController.swift */,
 				888507E92476791900EE5468 /* ChooseViewController.swift */,
 				889D63D1247694CB002CF11D /* CatViewController.swift */,
+				8881771A24794E1900ADD90F /* IntroViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				889D63DA2476B519002CF11D /* forest.mlmodel in Sources */,
 				88AAB64224740B440067EE0D /* cat.swift in Sources */,
 				889D63D2247694CB002CF11D /* CatViewController.swift in Sources */,
+				8881771B24794E1900ADD90F /* IntroViewController.swift in Sources */,
 				8879ACD4247827D5006B5CCD /* Spinner.swift in Sources */,
 				88AAB62E247406B20067EE0D /* ViewController.swift in Sources */,
 				88AAB646247449EE0067EE0D /* viewCell.swift in Sources */,
