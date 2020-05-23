@@ -243,7 +243,7 @@
         <!--Intro View Controller-->
         <scene sceneID="EdB-nu-hbA">
             <objects>
-                <viewController id="6Zn-gb-SWt" customClass="IntroViewController" customModule="compProj" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="6Zn-gb-SWt" customClass="IntroViewController" customModule="compProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e13-Xc-fYk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -259,8 +259,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="googleSignInPressed:" destination="6Zn-gb-SWt" eventType="touchUpInside" id="0WB-0S-7JW"/>
-                                    <segue destination="nh4-oU-IiG" kind="show" id="vXZ-D6-we5"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Rcm-o4-qvN"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🐈Cat Finder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jd7-Rs-J9x">
@@ -308,6 +307,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pkk-8L-9KN"/>
+        <segue reference="hb4-vX-jM5"/>
+        <segue reference="Rcm-o4-qvN"/>
     </inferredMetricsTieBreakers>
 </document>

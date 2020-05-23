@@ -13,6 +13,7 @@ class IntroViewController: UIViewController {
 
     @IBOutlet weak var titleText: UILabel!
     override func viewDidLoad() {
+        // animation setup 
         titleText.text = ""
         var charIndex = 0
         let textTitle = "🐈Cat Finder"

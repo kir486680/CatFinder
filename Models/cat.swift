@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-
+//simplified struct of Welcome Element
 class Cat{
     var name:String
     var description: String
@@ -24,7 +24,7 @@ class Cat{
         self.life_span = life_span
         self.intelligence = intelligence
         self.energyLevel = energyLevel
-        self.image = UIImage()
+        self.image = UIImage.gifImageWithName("loading-text-gif-14")!
         self.downloadImage(from: URL(string: url)!)
         
     }
@@ -32,10 +32,11 @@ class Cat{
        // print("Download Started")
         getData(from: url) { data, response, error in
             guard let data = data, error == nil else { return }
-            print(response?.suggestedFilename ?? url.lastPathComponent)
+            //print(response?.suggestedFilename ?? url.lastPathComponent)
             //print("Download Finished")
             DispatchQueue.main.async() {
                 self.image = UIImage(data: data)!
+                NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
             }
         }
     }
@@ -43,6 +44,8 @@ class Cat{
         URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
     }
 }
+
+
 // MARK: - WelcomeElement
 struct WelcomeElement: Codable {
     let breeds: [Breed]

@@ -12,6 +12,8 @@
 		8879ACD6247828B0006B5CCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8879ACD5247828B0006B5CCD /* Main.storyboard */; };
 		888177172479475000ADD90F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888177162479475000ADD90F /* Constants.swift */; };
 		8881771B24794E1900ADD90F /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8881771A24794E1900ADD90F /* IntroViewController.swift */; };
+		8881772224795F6B00ADD90F /* loading-text-gif-14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8881772124795F6B00ADD90F /* loading-text-gif-14.gif */; };
+		888177242479602D00ADD90F /* LoadGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888177232479602D00ADD90F /* LoadGif.swift */; };
 		888507EA2476791900EE5468 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888507E92476791900EE5468 /* ChooseViewController.swift */; };
 		889D63D2247694CB002CF11D /* CatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D63D1247694CB002CF11D /* CatViewController.swift */; };
 		889D63DA2476B519002CF11D /* forest.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 889D63D92476B518002CF11D /* forest.mlmodel */; };
@@ -32,6 +34,8 @@
 		888177162479475000ADD90F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		888177192479483300ADD90F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8881771A24794E1900ADD90F /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		8881772124795F6B00ADD90F /* loading-text-gif-14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "loading-text-gif-14.gif"; sourceTree = "<group>"; };
+		888177232479602D00ADD90F /* LoadGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadGif.swift; sourceTree = "<group>"; };
 		888507E92476791900EE5468 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
 		889D63D1247694CB002CF11D /* CatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewController.swift; sourceTree = "<group>"; };
 		889D63D92476B518002CF11D /* forest.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = forest.mlmodel; sourceTree = "<group>"; };
@@ -63,6 +67,7 @@
 			children = (
 				8879ACD124781AD7006B5CCD /* UIImageExtention.swift */,
 				8879ACD3247827D5006B5CCD /* Spinner.swift */,
+				888177232479602D00ADD90F /* LoadGif.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -78,9 +83,18 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		8881772024795F4900ADD90F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				8881772124795F6B00ADD90F /* loading-text-gif-14.gif */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		88AAB61D247406B20067EE0D = {
 			isa = PBXGroup;
 			children = (
+				8881772024795F4900ADD90F /* New Group */,
 				888177192479483300ADD90F /* README.md */,
 				8879ACD5247828B0006B5CCD /* Main.storyboard */,
 				888177182479477D00ADD90F /* Controllers */,
@@ -199,6 +213,7 @@
 			files = (
 				88AAB647247449EE0067EE0D /* viewCell.xib in Resources */,
 				88AAB636247406B40067EE0D /* LaunchScreen.storyboard in Resources */,
+				8881772224795F6B00ADD90F /* loading-text-gif-14.gif in Resources */,
 				88AAB633247406B40067EE0D /* Assets.xcassets in Resources */,
 				8879ACD6247828B0006B5CCD /* Main.storyboard in Resources */,
 			);
@@ -219,6 +234,7 @@
 				88AAB62E247406B20067EE0D /* ViewController.swift in Sources */,
 				88AAB646247449EE0067EE0D /* viewCell.swift in Sources */,
 				88AAB62A247406B20067EE0D /* AppDelegate.swift in Sources */,
+				888177242479602D00ADD90F /* LoadGif.swift in Sources */,
 				8879ACD224781AD7006B5CCD /* UIImageExtention.swift in Sources */,
 				888507EA2476791900EE5468 /* ChooseViewController.swift in Sources */,
 				888177172479475000ADD90F /* Constants.swift in Sources */,

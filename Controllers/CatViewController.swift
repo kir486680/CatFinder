@@ -25,7 +25,7 @@ class CatViewController: UIViewController {
     var iris_data = [12,5,5]
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("URL", cat?.url)
+        //init and set all tbe fields
         let energyLevel = String(cat!.energyLevel)
         let intelligence = String(cat!.intelligence)
         catDetail.text = cat?.description

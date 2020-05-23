@@ -9,6 +9,10 @@
 import Foundation
 import UIKit
 var vSpinner : UIView?
+
+//Implemented spinner while waiting for donwload
+//Realized that it is not realy neaded
+
 func showSpinner(onView : UIView) {
     let spinnerView = UIView.init(frame: onView.bounds)
     spinnerView.backgroundColor = UIColor.init(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
